@@ -1,0 +1,13 @@
+{
+  "presets": ["next/babel", "es2015", "stage-0", "react"],
+  "plugins": [
+      "react-hot-loader/babel",
+      "transform-object-rest-spread",
+      [
+          "wrap-in-js",
+          {
+              "extensions": ["css$", "scss$"]
+          }
+      ]
+  ]
+}

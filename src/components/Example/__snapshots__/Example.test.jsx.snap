@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Exmaple Renders correctly 1`] = `
+<div>
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": Object {},
+      }
+    }
+  />
+  <div
+    className="example"
+  >
+    Example
+  </div>
+</div>
+`;

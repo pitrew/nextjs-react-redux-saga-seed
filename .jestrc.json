@@ -1,0 +1,22 @@
+{
+    "verbose": true,
+    "roots": [
+        "<rootDir>/src/"
+    ],
+    "moduleNameMapper": {
+        "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
+            "<rootDir>/.config/jest/fileMock.js",
+        "\\.(scss|css|less)$": "<rootDir>/.config/jest/styleMock.js"
+    },
+    "collectCoverageFrom": [
+        "src/components/**/*.jsx",
+        "src/common/**/*.js",
+        "!src/common/store/*.js",
+        "!src/server/**/*.js"
+    ],
+    "setupFiles": [
+        "<rootDir>/.config/jest/setup.js"
+    ]
+}
+
+
